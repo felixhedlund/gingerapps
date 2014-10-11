@@ -27,6 +27,7 @@ $color-gray: #d8d8d8;
 $color-green: #7bcaad;
 $color-shadow: rgba(0, 0, 0, 0.25);
 
+
 @font-face {
 
   font-family: 'Futura';
@@ -83,9 +84,11 @@ html {
         //the main background.
         padding-bottom: $padding-main * 2;
 
+
         .navbar {
             height: $height-navbar;
             border: none;
+            border-radius: 0px;
             background-color: $color-blue;
             box-shadow: 0 $distance-shadow 0 $color-shadow;
             ul.nav {
