@@ -3,6 +3,12 @@ DigiMe::Application.routes.draw do
   root :to => 'home#index'
 
   get 'about', :to => 'home#about'
+
+  resources :projects do
+    collection do
+      
+    end
+  end
  
 
   # The priority is based upon order of creation: first created -> highest priority.
