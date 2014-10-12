@@ -84,7 +84,6 @@ html {
         //the main background.
         padding-bottom: $padding-main * 2;
 
-
         .navbar {
             height: $height-navbar;
             border: none;
@@ -92,6 +91,7 @@ html {
             background-color: $color-blue;
             box-shadow: 0 $distance-shadow 0 $color-shadow;
             margin-bottom: 40px;
+            z-index: 1;
             ul.nav {
                 li {
                     text-align: center;
@@ -148,16 +148,20 @@ html {
 
 #logotype {
     img {
+        position: absolute;
+        z-index: 1;
         height: $height-logotype;
         width: auto;
         $middle-margin: ($height-navbar - $height-logotype) / 2;
-        margin: $middle-margin 40px 0 40px;
+        margin: $middle-margin 40px 0 0px;
     }
 }
 
 #bs-example-navbar-collapse-1 {
     background-color: $color-blue;
     border-top: none;
+    z-index: 1;
+
 }
 
 #inviter,
@@ -618,7 +622,6 @@ input[type="submit"] {
         box-shadow: none;
     }
 }
-
 div.block { margin-bottom: 0 !important; }
 
 textarea {

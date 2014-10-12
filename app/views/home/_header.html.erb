@@ -8,7 +8,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <%= image_tag '3Pagodas.jpg' %>
+      <%= image_tag 'thebund.jpg' %>
       <div class="carousel-caption">
       </div>
     </div>
@@ -34,15 +34,16 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
+        <%= image_tag 'hamburger-icon-yellow.svg', size: "16x16" %>
       </button>
       <div id="logotype" class="navbar-left">
         <%=link_to (image_tag("headbubble.png")), root_url %>
       </div>
     </div>
-    
-      <div class="nav navbar-nav navbar-right">
-      
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li><%= link_to 'About this website', about_path, :class => "button" %></li>
+      </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
