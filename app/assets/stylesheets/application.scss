@@ -614,8 +614,7 @@ button,
 input[type="submit"] {
     font-size: 16px;
     &:hover {
-        color: $color-red;
-        background-color: $color-red !important; 
+        
 
     }
     &.red:hover,
@@ -628,7 +627,11 @@ input[type="submit"] {
     }
 }
 div.block { margin-bottom: 0 !important; }
-
+.navbar-button{
+    &:hover {
+        background-color: $color-red !important; 
+    }
+}
 textarea {
     font-family: $font-text;
     width: 100%;
