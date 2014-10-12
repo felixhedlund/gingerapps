@@ -553,16 +553,17 @@ input[type="submit"],
 
     display: inline-block;
     font-family: $font-header;
-    background-color: darken(white, 3%);
-    color: $color-red;
+    background-color: transparent;
+    color: white !important;
     text-transform: uppercase;
     padding: $padding-button;
-    border: none;
+    border: solid;
+    border-color: white;
     text-align: center;
     outline: none;
-    box-shadow: 0 $distance-shadow 0 $color-shadow;
-    margin-bottom: $distance-shadow * 2;
+    //margin-bottom: $distance-shadow * 2;
     text-decoration: none;
+    border-width: 5px;
     border-radius: 0;
 
     &.fill { width: 100%; }
@@ -610,7 +611,6 @@ button,
 input[type="submit"] {
     font-size: 16px;
     &:hover {
-        opacity: 0.9;
         color: $color-red;
     }
     &.red:hover,
