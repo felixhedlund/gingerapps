@@ -183,7 +183,7 @@ html {
         height: $height-logotype;
         width: auto;
         $middle-margin: ($height-navbar - $height-logotype) / 2;
-        margin: $middle-margin 40px 0 0px;
+        margin: $middle-margin 40px 0 20px;
     }
     img:hover{
         opacity: 0.8;
