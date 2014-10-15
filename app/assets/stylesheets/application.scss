@@ -84,6 +84,13 @@ html {
         //the main background.
         //padding-bottom: $padding-main * 2;
 
+
+        .container-carousel{
+            margin: 0 auto !important;
+            width: 100% !important;
+            height: 350px !important;
+        }
+
         .wrapper {
             min-height: 100% !important;
             height: auto !important;
@@ -199,8 +206,7 @@ html {
 
 }
 
-p,
-.footer-button {
+p.footer-button {
     font-family: $font-header !important;
     display: inline-block;
     background-color: transparent;
@@ -424,6 +430,7 @@ h5,
 h6 {
     font-family: $font-header;
     text-transform: uppercase;
+    padding-left: 15px;
     &.inline {
         margin: 0 0 0 0;
     }
@@ -434,6 +441,12 @@ h6 {
 
 p {
     font-family: $font-text;
+    padding-left: 15px;
+    font-size: $fontsize-headerbar;
+    color: black;
+    margin-top: 0px;
+    text-transform: none;
+    text-align: left;
     &.alert,
     &.notice {
         cursor: n-resize;
