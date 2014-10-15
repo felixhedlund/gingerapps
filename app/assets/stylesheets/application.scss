@@ -32,10 +32,10 @@ $color-shadow: rgba(0, 0, 0, 0.25);
 @font-face {
 
   font-family: 'Futura';
-  src: font-url('/assets/FuturaBT-Bold.eot?') format('eot'),
-     font-url('/assets/FuturaBT-Bold.woff') format('woff'),
-     font-url('/assets/FuturaBT-Bold.ttf')  format('truetype'),
-     font-url('/assets/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  src: font-url(asset_path('FuturaBT-Bold.eot?')) format('eot'),
+     font-url(asset_path('FuturaBT-Bold.woff')) format('woff'),
+     font-url(asset_path('FuturaBT-Bold.ttf'))  format('truetype'),
+     font-url(asset_path('FuturaBT-Bold.svg#FuturaBT-Bold')) format('svg');
 
   font-weight: bold;
   font-style: normal;
@@ -45,14 +45,14 @@ $color-shadow: rgba(0, 0, 0, 0.25);
 @font-face {
 
   font-family: 'Robot!head';
-  src: font-url('/assets/robothead.ttf') format('truetype');
+  src: font-url(asset_path('robothead.ttf')) format('truetype');
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face{
 font-family: 'Glyphicons Halflings';
-background-image:url('<%= asset_path("logo.png") %> ');
+background-image:url(asset_path("logo.png"));
   src: url(asset_path("glyphicons-halflings-regular.eot"));
   src: url(asset_path("glyphicons-halflings-regular.eot?#iefix")) format('embedded-opentype'), url(asset_path("glyphicons-halflings-regular.woff")) format('woff'), url(asset_path("glyphicons-halflings-regular.ttf")) format('truetype'), url(("glyphicons-halflings-regular.svg#glyphicons_halflingsregular")) format('svg');
 }
