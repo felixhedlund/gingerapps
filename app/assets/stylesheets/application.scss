@@ -52,8 +52,9 @@ $color-shadow: rgba(0, 0, 0, 0.25);
 }
 @font-face{
 font-family: 'Glyphicons Halflings';
-  src: url('/assets/glyphicons-halflings-regular.eot');
-  src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+background-image:url('<%= asset_path("logo.png") %> ');
+  src: url(asset_path("glyphicons-halflings-regular.eot"));
+  src: url(asset_path("glyphicons-halflings-regular.eot?#iefix")) format('embedded-opentype'), url(asset_path("glyphicons-halflings-regular.woff")) format('woff'), url(asset_path("glyphicons-halflings-regular.ttf")) format('truetype'), url(("glyphicons-halflings-regular.svg#glyphicons_halflingsregular")) format('svg');
 }
 
 $font-header: Futura, railway, sans-serif;
