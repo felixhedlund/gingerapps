@@ -3,7 +3,8 @@ DigiMe::Application.routes.draw do
   root :to => 'home#index'
 
   get 'about', :to => 'home#about'
-
+  get 'contact', :to => 'home#contact'
+  
   resources :projects do
     collection do
       

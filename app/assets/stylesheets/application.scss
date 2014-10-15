@@ -80,7 +80,13 @@ $fontsize-headerbar: 20px;
 
 //you'll have to change these manually if any of the variables above is changed (size and position properties).
 $margin-navbar: 18px;
-
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 html {
     height: 100%;
@@ -90,6 +96,27 @@ html {
         background-color: $color-light;
         //the main background.
         //padding-bottom: $padding-main * 2;
+
+        .col-md-4{
+            text-align: center;
+            height: 300px;
+            &.blue{
+                background-color: #3B5999;
+            }
+            &.white{
+                background-color: #b5b5b5;
+            }
+            &.brown{
+                background-color: #d0bcad;
+            }
+        }
+        .icon{
+            
+            height: 100px;
+            @include vertical-align;
+        }
+
+
         .video-container{
             margin: 0 auto;
             max-width: 1000px;
