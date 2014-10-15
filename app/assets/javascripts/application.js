@@ -17,3 +17,4 @@
 //= require bootstrap-datepicker/core.js
 //= require bootstrap-datepicker/locales/bootstrap-datepicker.sv.js
 //= require bootstrap-timepicker
+//= require bootstrap-sprockets

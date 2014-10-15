@@ -11,6 +11,7 @@ $screen-custom-min: 960px;
 $grid-float-breakpoint: $screen-custom-min;
  //*= require twitter/bootstrap
 @import "bootstrap";
+@import "bootstrap-sprockets";
 
 $padding-main: 10px;
 $padding-button: 10px;
@@ -31,10 +32,10 @@ $color-shadow: rgba(0, 0, 0, 0.25);
 @font-face {
 
   font-family: 'Futura';
-  src: font-url('FuturaBT-Bold.eot?') format('eot'),
-     font-url('FuturaBT-Bold.woff') format('woff'),
-     font-url('FuturaBT-Bold.ttf')  format('truetype'),
-     font-url('FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  src: font-url('/assets/FuturaBT-Bold.eot?') format('eot'),
+     font-url('/assets/FuturaBT-Bold.woff') format('woff'),
+     font-url('/assets/FuturaBT-Bold.ttf')  format('truetype'),
+     font-url('/assets/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
 
   font-weight: bold;
   font-style: normal;
@@ -44,10 +45,15 @@ $color-shadow: rgba(0, 0, 0, 0.25);
 @font-face {
 
   font-family: 'Robot!head';
-  src: font-url('robothead.ttf') format('truetype');
+  src: font-url('/assets/robothead.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 
+}
+@font-face{
+font-family: 'Glyphicons Halflings';
+  src: url('/assets/glyphicons-halflings-regular.eot');
+  src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 $font-header: Futura, railway, sans-serif;
