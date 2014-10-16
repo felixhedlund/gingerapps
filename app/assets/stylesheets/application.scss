@@ -99,6 +99,10 @@ html {
         //the main background.
         //padding-bottom: $padding-main * 2;
 
+        iframe.embed-responsive-item{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
         .img-responsive{
             padding-left: 15px;
             padding-right: 15px;
