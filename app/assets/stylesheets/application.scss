@@ -91,9 +91,11 @@ $margin-navbar: 18px;
 html {
     height: 100%;
     font-family: $font-text;
+    overflow-x: hidden;
     body {
         min-height: 100%;
         background-color: $color-light;
+        overflow-x: hidden;
         //the main background.
         //padding-bottom: $padding-main * 2;
         a {
@@ -115,7 +117,6 @@ html {
                 background-color: #d0bcad;
             }
         }
-
         .col-md-6{
             text-align: center;
             height: 300px;
@@ -123,6 +124,10 @@ html {
         .project-image{
             width: auto;
             max-width: 480px !important;
+        }
+        .project-image-alone{
+            max-width: 500px;
+            padding-left: 30px;
         }
 
 
