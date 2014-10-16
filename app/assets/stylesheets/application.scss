@@ -253,12 +253,12 @@ p.footer-button {
     border-color: white;
     text-align: center !important; 
     outline: none;
-    margin-top: $height-footer /2 - 70px/2;
     //margin-top: $distance-shadow * -1;
     text-decoration: none;
     border-width: 5px;
     border-radius: 0;
     font-size: 40px !important;
+    @include vertical-align;
 }
 
 //refactored stylesheet
