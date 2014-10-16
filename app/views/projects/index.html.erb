@@ -4,6 +4,16 @@
 	<h1>Projects</h1>
 </div>
 
+<!--Antagningsprov KMH-->
+<div class="container white-container col-xs-12">
+	<h3>Admission Test</h3>
+	<p>This is an ongoing project ordered from the <%= link_to("Royal College of Music", "http://www.kmh.se/", :class => "bold") %> in Stockholm for our course in Interaction. We are a team of five people looking into how to digitalize an admission test. Difficulties are how to input notes, chords and other music related things without making it too complicated for us to implement. We are currently using the following libraries:  AngularJS, VexFlow, BootStrap, Web MIDI, HTML 5 Audio and SASS.</p>
+	<div style="text-align: center;">
+	  <%= image_tag('KMH.png', :class => "img-responsive", :style => "max-height: 110px; display:inline;") %>
+	</div>
+</div>
+
+
 <!--Webshop-->
 <div class="container white-container col-xs-12">
 	<h3>Web shop</h3>
@@ -46,7 +56,14 @@
 			<iframe class="embed-responsive-item" src="//www.youtube.com/embed/8ZmMSqBrdWE" allowfullscreen></iframe>
 		</div>
 	</div>
-	
+</div>
+<!--Teknikfokus-->
+<div class="container white-container col-xs-12">
+	<h3>Head of marketing at Teknikfokus</h3>
+	<p><%= link_to("Teknikfokus", "http://www.teknikfokus.se", :class => "bold") %> is a well-known job fair at Lund faculty of Engineering. I was head of marketing in the project group and created visual content in the form of flyers, posters, business cards and more. This project gave me great experience in handling contacts with companies in the IT business and improved my skills in Adobe Photoshop and Adobe Illustrator. </p>
+	<div style="text-align: center;">
+	  <%= image_tag('Teknikfokus.jpg', :class => "img-responsive", :style => "max-height: 400px; display:inline;") %>
+	</div>
 </div>
 </div>
 <%= render "home/footer" %>
