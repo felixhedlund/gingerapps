@@ -12,7 +12,6 @@ DigiMe::Application.routes.draw do
   end
   resources :jobs do
     collection do
-      
     end
   end
  
