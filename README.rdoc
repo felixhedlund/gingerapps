@@ -1,7 +1,5 @@
 == README
 
-This is my digital Curriculum Vitae
+This is the website for Ginger Apps, a Swedish company.
 
-Here I post updates on work positions and projects I have participated in.
-
-The website domain is http://www.felixhedlund.com
+The website domain is http://www.gingerapps.com
