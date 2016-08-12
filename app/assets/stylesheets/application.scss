@@ -19,14 +19,15 @@ $padding-mini-button: 3px;
 
 $margin-main: $padding-main;
 
-$color-red: #b66b5c;
-$color-blue: #8a9eb2;
+$color-red: #a38655;
+$color-blue: #767575;
 $color-dark: #202020;
 $color-light: #ecf0f1;
 $color-yellow: #eccd3c;
 $color-gray: #d8d8d8;
 $color-green: #7bcaad;
 $color-shadow: rgba(0, 0, 0, 0.25);
+$color-shadow-navbar: rgba(90, 90, 90, 0.95);
 
 
 @font-face {
@@ -174,7 +175,7 @@ html {
             border: none;
             border-radius: 0px;
             background-color: $color-blue;
-            box-shadow: 0 $distance-shadow 0 $color-shadow;
+            box-shadow: 0 $distance-shadow 0 $color-shadow-navbar;
             margin-bottom: 40px;
             z-index: 1;
             ul.nav {

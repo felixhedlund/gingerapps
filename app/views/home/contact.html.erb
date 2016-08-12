@@ -5,7 +5,15 @@
 </div>
 <div class="white-container col-xs-12">
 	<h3>Contact information</h3>
-	<p>Felix Hedlund</p>
+	<p>Business Enquiries</p>
+
+	<p>
+	<%= mail_to "gingerapps@programmer.net" do %>
+   gingerapps@programmer.net
+<% end %></p>
+
+
+	<p>Personal Enquiries</p>
 	<p>
 	<%= mail_to "felixhedlund@me.com" do %>
    felixhedlund@me.com

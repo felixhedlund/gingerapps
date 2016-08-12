@@ -11,17 +11,17 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <%= image_tag 'Spheres.png' %>
+        <%= image_tag 'gingerApps.jpg' %>
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <%= image_tag 'thebund.jpg' %>
+        <%= image_tag 'DrawCollab.jpg' %>
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <%= image_tag 'ningbo.jpg' %>
+        <%= image_tag 'Spheres.jpg' %>
         <div class="carousel-caption">
         </div>
       </div>
@@ -45,16 +45,13 @@
           <%= image_tag 'hamburger-icon-yellow.svg', size: "16x16" %>
         </button>
         <div id="logotype" class="navbar-left">
-          <%=link_to (image_tag("headbubble.png", class: "img_logo")), root_url %>
+          <%=link_to (image_tag("gingerIcon.png", class: "img_logo")), root_url %>
         </div>
       </div>
       <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><%= link_to 'Work experience', jobs_path, :class => "button navbar-button" %></li>
-          <li><%= link_to 'Projects', projects_path, :class => "button navbar-button" %></li>
-          <li><%= link_to 'About this website', about_path, :class => "button navbar-button" %></li>
+          <li><%= link_to 'App portfolio', projects_path, :class => "button navbar-button" %></li>
           <li><%= link_to 'Contact', contact_path, :class => "button navbar-button" %></li>
-
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
