@@ -1,5 +1,5 @@
 == README
 
-This is the website for Ginger Apps, a Swedish company.
+This is the (now outdated) website for Ginger Apps, a Swedish company.
 
 The website domain is http://www.gingerapps.com
